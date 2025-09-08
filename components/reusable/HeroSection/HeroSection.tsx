@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import { BiSolidStar } from "react-icons/bi";
 import { HeroSectionForm } from './HeroSectionForm';
@@ -15,7 +16,7 @@ export default function HeroSection() {
                         <BiSolidStar className='inline align-middle' />
                         <span className=''>Premium Properties</span>
                     </span>
-                    <div className='card-header flex flex-col gap-4'>
+                    <div className='card-header flex flex-col gap-4 mt-4'>
                         <div className='card-title text-[2.5rem] font-bold'>Discover Your Perfect Home in the Heart of the City</div>
                         <div className='card-description text-[1.1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Browse thousands of verified listings from trusted agents.</div>
                     </div>
