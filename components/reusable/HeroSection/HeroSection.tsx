@@ -56,7 +56,7 @@ export default function HeroSection() {
                             src={personImage1}
                             alt="Real Estate Person"
                             width={50}
-                            className="rounded-full outline outline-1 outline-[var(--accent-color)]"
+                            className="rounded-full outline outline-[var(--accent-color)]"
                         />
                         <div className="flex flex-col">
                             <div className="font-bold">David Johnson</div>
