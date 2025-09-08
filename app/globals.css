@@ -76,6 +76,25 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Custom Colors for my site */
+
+  /* Base Colors for Overall Site */
+
+  --background-color: #ffffff;
+  --default-color: #323b3b;
+  --heading-color: #163535;
+  --accent-color: #2c7a7b;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+
+  /* Navbar Related Colors */
+  --nav-color: #323b3b;
+  --nav-hover-color: #2c7a7b;
+  --nav-mobile-background-color: #ffffff;
+  --nav-dropdown-background-color: #ffffff;
+  --nav-dropdown-color: #323b3b;
+  --nav-dropdown-hover-color: #2c7a7b;
 }
 
 .dark {
