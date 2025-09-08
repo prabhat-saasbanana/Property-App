@@ -4,8 +4,12 @@ import Navbar from "@/components/reusable/NavSection/Navbar"
 export default function Home() {
   return (
     <>
+      <header className="">
       <Navbar />
-      <HeroSection />
+      </header>
+      <main className="">
+        <HeroSection/>
+      </main>
     </>
   );
 }
