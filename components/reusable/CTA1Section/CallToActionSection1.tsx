@@ -24,7 +24,7 @@ export default function CallToActionSection1() {
                         <div className='card-description text-[1.1rem]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Browse thousands of verified listings from trusted agents.</div>
                     </div>
                     <section className="stats flex flex-row justify-start items-center gap-8 mt-16">
-                        <div className="stats-item outline outline-1 outline-gray-200 p-6 rounded-lg">
+                        <div className="stats-item outline outline-gray-200 p-6 rounded-lg">
                             <div className="stat-value text-3xl font-bold text-[var(--accent-color)]">
                                 2847+
                             </div>
@@ -32,7 +32,7 @@ export default function CallToActionSection1() {
                                 Properties Listed
                             </div>
                         </div>
-                        <div className="stats-item outline outline-1 outline-gray-200 p-6 rounded-lg">
+                        <div className="stats-item outline outline-gray-200 p-6 rounded-lg">
                             <div className="stat-value  text-3xl font-bold text-[var(--accent-color)]">
                                 95%
                             </div>
@@ -40,7 +40,7 @@ export default function CallToActionSection1() {
                                 Success Rate
                             </div>
                         </div>
-                        <div className="stats-item outline outline-1 outline-gray-200 p-6 rounded-lg">
+                        <div className="stats-item outline outline-gray-200 p-6 rounded-lg">
                             <div className="stat-value  text-3xl font-bold text-[var(--accent-color)]">
                                 24/7
                             </div>
