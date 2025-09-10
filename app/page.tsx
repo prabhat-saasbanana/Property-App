@@ -2,6 +2,7 @@ import HeroSection from "@/components/reusable/HeroSection/HeroSection";
 import Navbar from "@/components/reusable/NavSection/Navbar"
 import CallToActionSection1 from "@/components/reusable/CTA1Section/CallToActionSection1";
 import FeaturedProperties from "@/components/reusable/FeaturedProperties/FeaturedProperties";
+import Footer from "@/components/reusable/FooterSection/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <CallToActionSection1/>
         <FeaturedProperties/>
       </main>
+      <Footer/>
     </>
   );
 }
