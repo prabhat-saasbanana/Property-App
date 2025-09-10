@@ -14,8 +14,8 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="footer gap-6 mx-16 my-24">
-            <div className="footer-top grid grid-cols-12 grid-rows-12 gap-8">
+        <footer className="footer gap-6 mt-24">
+            <div className="footer-top grid grid-cols-12 grid-rows-12 gap-8 mx-16">
                 <div className="col-span-4 row-span-12 flex flex-col justify-start gap-4 mt-4">
                     <h1 className="text-2xl font-bold text-black">TheProperty</h1>
                     <p className="text-gray-600">
@@ -110,31 +110,31 @@ export default function Footer() {
                 <div className="col-start-9 col-span-4 row-span-12 flex flex-col justify-start gap-4 mt-4">
                     <h1 className="text-xl font-bold text-black">Get in Touch</h1>
                     <p className="text-gray-600 inline-flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
+                        <span className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
                             <BsFillGeoAltFill className="w-4 h-4" />
-                        </div>
+                        </span>
                         2847 Maple Avenue<br />
                         Los Angeles, CA 90210<br />
                         United States<br />
                     </p>
                     <p className="text-gray-600 inline-flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
+                        <span className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
                             <BsTelephone className="w-4 h-4" />
-                        </div>
+                        </span>
                         +1 (555) 987-6543
-                        
+
                     </p>
                     <p className="text-gray-600 inline-flex items-center gap-4">
-                        <div className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
+                        <span className="w-12 h-12 bg-[var(--accent-color)] text-white rounded-full flex items-center justify-center">
                             <BiEnvelope className="w-4 h-4" />
-                        </div>
+                        </span>
                         contact@example.com
                     </p>
                     {/* Icons */}
                     <div className="flex flex-row justify-start items-center gap-2">
                         <div className="w-12 h-12 bg-gray-200 text-[var(--default-color)]/70 rounded-full flex items-center justify-center">
                             <IoLogoFacebook
-                             className="w-4 h-4" />
+                                className="w-4 h-4" />
                         </div>
                         <div className="w-12 h-12 bg-gray-200 text-[var(--default-color)]/70 rounded-full flex items-center justify-center">
                             <FaXTwitter className="w-4 h-4" />
@@ -151,6 +151,20 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="footer-bottom flex flex-row text-white bg-[var(--accent-color)] p-8 justify-between items-center">
+                <p className="text-sm">© Copyright <b>MyWebsite</b> All Rights Reserved</p>
+
+                <div className="flex flex-col gap-4">
+                    <div className="flex flex-row gap-4">
+                        <Link href="#" className="text-sm">Privacy Policy</Link>
+                        <Link href="#" className="text-sm">Terms of Service</Link>
+                        <Link href="#" className="text-sm">Cookie Policy</Link>
+                    </div>
+                    <p className="text-sm text-right">Designed by BootstrapMade
+                    </p>
+                </div>
+            </div>
+
         </footer>
     );
 }
