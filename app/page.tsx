@@ -4,6 +4,7 @@ import CallToActionSection1 from "@/components/reusable/CTA1Section/CallToAction
 import FeaturedProperties from "@/components/reusable/FeaturedProperties/FeaturedProperties";
 import Footer from "@/components/reusable/FooterSection/Footer";
 import FeaturedServices from "@/components/reusable/FeaturedServices/FeaturedServices";
+import FeaturedAgents from "@/components/reusable/FeaturedAgents/FeaturedAgents";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <CallToActionSection1/>
         <FeaturedProperties/>
         <FeaturedServices/>
+        <FeaturedAgents />
       </main>
       <Footer/>
     </>

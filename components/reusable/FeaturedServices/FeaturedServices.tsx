@@ -7,8 +7,8 @@ import Link from 'next/link'
 
 export default function FeaturedServices() {
     return (
-        <section className="featured-properties flex flex-col gap-6 mx-16 my-24">
-            <div className='text-center text-3xl font-bold'>Featured Properties</div>
+        <section className="featured-services flex flex-col gap-6 mx-16 my-24">
+            <div className='text-center text-3xl font-bold'>Featured Services</div>
             <div className="relative w-[10rem] m-auto h-px bg-gray-300">
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-10 h-1 bg-[var(--accent-color)]  rounded"></div>
             </div>
