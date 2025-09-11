@@ -3,6 +3,7 @@ import Navbar from "@/components/reusable/NavSection/Navbar"
 import CallToActionSection1 from "@/components/reusable/CTA1Section/CallToActionSection1";
 import FeaturedProperties from "@/components/reusable/FeaturedProperties/FeaturedProperties";
 import Footer from "@/components/reusable/FooterSection/Footer";
+import FeaturedServices from "@/components/reusable/FeaturedServices/FeaturedServices";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <HeroSection/>
         <CallToActionSection1/>
         <FeaturedProperties/>
+        <FeaturedServices/>
       </main>
       <Footer/>
     </>
